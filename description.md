@@ -1,6 +1,5 @@
+<h1 align="center">Description Database :open_book:</h1>
 # product_type
-
-:relieved:
 
 > Loại sản phẩm
 
