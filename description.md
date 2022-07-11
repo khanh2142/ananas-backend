@@ -2,21 +2,21 @@
 
 # product_type
 
-**1. Loại sản phẩm (_**`Type`**_)**
+**1. Loại sản phẩm (_*`Type`*_)**
 
 - _**`accessories`**_ : phụ kiện
 - _**`top`**_ : nửa trên (áo)
 - _**`footwear`**_ : lên chân (giày,tất)
 
-**2. Bộ sưu tập (_**`Collection`**_)**
+**2. Bộ sưu tập (_*`Collection`*_)**
 
     Tập hợp các bộ sưu tập của các loại sản phẩm.
 
-**3. Danh mục (_**`Category`**_)**
+**3. Danh mục (_*`Category`*_)**
 
     Tập hợp danh mục của các loại sản phẩm.
 
-**4. Chất liệu (_**`Material`**_)**
+**4. Chất liệu (_*`Material`*_)**
 
     Tập hợp chất liệu của các loại sản phẩm.
 
