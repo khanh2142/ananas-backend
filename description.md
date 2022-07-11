@@ -1,5 +1,7 @@
 # product_type
 
+:relieved:
+
 > Loại sản phẩm
 
 - _**`accessories`**_ : phụ kiện
