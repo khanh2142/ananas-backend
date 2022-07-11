@@ -20,6 +20,18 @@
 
     Tập hợp chất liệu của các loại sản phẩm.
 
+**5. Màu sắc (_*`Color`*_)**
+
+    Tập hợp màu sắc của các loại sản phẩm.
+
+**6. Size**
+
+    Tập hợp size của các loại sản phẩm.
+
+- Với **_`accessories`_** : **_`null`_**
+- Với **_`top`_** : **_`S`_**,**_`M`_**,**_`L`_** và **_`XL`_**
+- Với **_`footwear`_** : **_`35`_** đến **_`46`_**
+
 > Schema
 
 | #          | Data type |
