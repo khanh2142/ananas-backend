@@ -49,7 +49,15 @@
 
 # product_design _`(chỉ dành cho giày)`_
 
-> Thiết kế sản phẩm / kiểu dáng sản phẩm (chỉ dành cho giày)
+**1. Thiết kế sản phẩm / kiểu dáng sản phẩm (chỉ dành cho giày)**
+
+**2. Các thiết kế bao gồm**
+
+- _**`low top`**_
+- _**`high top`**_
+- _**`slip-on`**_
+- _**`mid top`**_
+- _**`mule`**_
 
 > Schema
 
@@ -60,7 +68,7 @@
 
 # product_status (_`available for all`_)
 
-> Trạng thái sản phẩm
+**1. Trạng thái sản phẩm**
 
 - _**`limited edtion`**_ : bản giới hạn
 - _**`online only`**_ : chỉ có thể mua online
@@ -75,4 +83,21 @@
 | \_id    | ObjectId  |
 | content | String    |
 
-### hello world
+# product
+
+**1. Tên sản phẩm (_*`Name`*_)**
+
+    Lưu trữ tên sản phẩm.
+
+**2. Mã sản phẩm (_*`Product_id`*_)**
+
+    Mã sản phẩm được generate theo _id
+
+**Giải thích :**
+
+- Ta có một _**`ObjectId`**_ được generate bởi MongoDB : _**`62cb04edd6baa07964ccf95b`**_
+- Giờ ta sẽ cắt lấy 5 ký tự cuối cùng của \_id vừa rồi : _**`cf95b`**_
+- Nối nó với chuỗi _**`ana`**_ cho trước
+- Bây giờ ta được một _**`product_id`**_ : _**`anacf95b`**_
+
+<p style="padding : 1000px">1<p>
