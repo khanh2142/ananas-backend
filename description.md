@@ -32,6 +32,10 @@
 - Với **_`top`_** : **_`S`_**,**_`M`_**,**_`L`_** và **_`XL`_**
 - Với **_`footwear`_** : **_`35`_** đến **_`46`_**
 
+**6. Color**
+
+    Tập hợp màu chủ đạo của các loại sản phẩm.
+
 > Schema
 
 | #          | Data type |
@@ -41,8 +45,9 @@
 | collection | Array     |
 | category   | Array     |
 | material   | Array     |
+| color      | Array     |
 
-# product_design (_`only available for shoes`_)
+# product_design _`(chỉ dành cho giày)`_
 
 > Thiết kế sản phẩm / kiểu dáng sản phẩm (chỉ dành cho giày)
 
