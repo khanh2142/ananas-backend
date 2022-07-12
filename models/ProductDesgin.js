@@ -9,9 +9,6 @@ const schema = new Schema(
       lowercase: true,
       maxLength: 30,
     },
-    type_id: {
-      type: Schema.Types.ObjectId,
-    },
   },
   { collection: "product_design" }
 );
