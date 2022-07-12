@@ -36,6 +36,14 @@
 
     Tập hợp màu chủ đạo của các loại sản phẩm.
 
+**7. Bảo hành (_*`Warranty`*_)**
+
+    Thông tin về bảo hành loại sản phẩm.
+
+**8. Đổi trả (_*`Exchange`*_)**
+
+    Thông tin về đổi trả với loại sản phẩm.
+
 > Schema
 
 | #          | Data type |
@@ -46,8 +54,10 @@
 | category   | Array     |
 | material   | Array     |
 | color      | Array     |
+| warranty   | String    |
+| exchange   | String    |
 
-# product_design _`(chỉ dành cho giày)`_
+# product*design *`(chỉ dành cho giày)`\_
 
 **1. Thiết kế sản phẩm / kiểu dáng sản phẩm (chỉ dành cho giày)**
 
@@ -66,7 +76,7 @@
 | \_id    | ObjectId  |
 | content | String    |
 
-# product_status (_`available for all`_)
+# product*status *`(dành cho mọi loại sản phẩm)`\_
 
 **1. Trạng thái sản phẩm**
 
@@ -91,7 +101,7 @@
 
 **2. Mã sản phẩm (_*`Product_id`*_)**
 
-    Mã sản phẩm được generate theo _id
+    Mã sản phẩm được generate theo _id.
 
 **Giải thích :**
 
@@ -99,5 +109,42 @@
 - Giờ ta sẽ cắt lấy 5 ký tự cuối cùng của \_id vừa rồi : _**`cf95b`**_
 - Nối nó với chuỗi _**`ana`**_ cho trước
 - Bây giờ ta được một _**`product_id`**_ : _**`anacf95b`**_
+
+**3. Giá gốc của sản phẩm (_*`Price_root`*_)**
+
+**4. Giá sale của sản phẩm (_*`Price_sale`*_)**
+
+**5. Mô tả sản phẩm (_*`Description`*_)**
+
+    Các thông tin mô tả hoặc giới thiệu về sản phẩm.
+
+**6. Thông tin về sản phẩm (_*`Information`*_)**
+
+    Các thông tin chi tiết về sản phẩm.
+
+**7. Màu sắc (_*`Color`*_)**
+
+    Màu của sản phẩm.
+
+**7. Danh sách size và số lượng (_*`List`*_)**
+
+    Danh sách size và số lượng mặt hàng.
+
+- _**`Size`**_
+- _**`Quantity`**_
+
+> Schema
+
+| #           | Data type |
+| ----------- | --------- |
+| \_id        | ObjectId  |
+| name        | String    |
+| product_id  | String    |
+| price_root  | Number    |
+| price_sale  | Number    |
+| description | String    |
+| information | String    |
+| color       | String    |
+| list        | Array     |
 
 <p style="padding : 1000px">1<p>
