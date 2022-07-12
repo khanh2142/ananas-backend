@@ -57,7 +57,7 @@
 | warranty   | String    |
 | exchange   | String    |
 
-# product_design *`(chỉ dành cho giày)`*
+# product_design _`(chỉ dành cho giày)`_
 
 **1. Thiết kế sản phẩm / kiểu dáng sản phẩm (chỉ dành cho giày)**
 
@@ -76,7 +76,7 @@
 | \_id    | ObjectId  |
 | content | String    |
 
-# product_status *`(dành cho mọi loại sản phẩm)`*
+# product_status _`(dành cho mọi loại sản phẩm)`_
 
 **1. Trạng thái sản phẩm**
 
@@ -126,7 +126,36 @@
 
     Màu của sản phẩm.
 
-**7. Danh sách size và số lượng (_*`List`*_)**
+**8. Giới tính (_*`Gender`*_)**
+
+    Sản phẩm dành cho giới tính nào.
+
+**9. Thiết kế (_*`Design`*_)**
+
+    Sản phẩm theo thiết kế nào (Chỉ giày).
+
+**10. Bộ sưu tập (_*`Collection`*_)**
+
+    Sản phẩm thuộc bộ sưu tập.
+
+**11. Trạng thái (_*`Status`*_)**
+
+    Trạng thái của sản phẩm.
+
+**12. Danh mục (_*`Category`*_)**
+
+    Danh mục thuộc sản phẩm.
+
+**13. Loại sản phẩm (_*`Type`*_)**
+
+    Sản phẩm thuộc loại nào.
+
+**14. Ẩn sản phẩm (_*`Hide`*_)**
+
+- **_`true`_** : sản phẩm sẽ bị ẩn đi (chứ không bị xóa)
+- **_`false`_** : sản phẩm sẽ không bị ẩn đi
+
+**15. Danh sách size và số lượng (_*`List`*_)**
 
     Danh sách size và số lượng mặt hàng.
 
@@ -135,16 +164,23 @@
 
 > Schema
 
-| #           | Data type |
-| ----------- | --------- |
-| \_id        | ObjectId  |
-| name        | String    |
-| product_id  | String    |
-| price_root  | Number    |
-| price_sale  | Number    |
-| description | String    |
-| information | String    |
-| color       | String    |
-| list        | Array     |
+| #           | Data type | Default          |
+| ----------- | --------- | ---------------- |
+| \_id        | ObjectId  |                  |
+| name        | String    | **_`not null`_** |
+| product_id  | String    | **_`not null`_** |
+| price_root  | Number    | **_`not null`_** |
+| price_sale  | Number    | **_`not null`_** |
+| description | String    | **_`null`_**     |
+| information | String    | **_`null`_**     |
+| color       | String    | **_`not null`_** |
+| gender      | String    | **_`all`_**      |
+| design      | String    | **_`null`_**     |
+| collection  | String    | **_`null`_**     |
+| status      | String    | **_`null`_**     |
+| category    | String    | **_`not null`_** |
+| type        | String    | **_`not null`_** |
+| hide        | Boolean   | **_`false`_**    |
+| list        | Array     | **_`not null`_** |
 
 <p style="padding : 1000px">1<p>
