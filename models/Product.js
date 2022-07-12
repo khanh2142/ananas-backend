@@ -13,7 +13,7 @@ const schema = new Schema(
     color: { type: String },
     gender: { type: String },
     design: { type: String },
-    collection: { type: String },
+    collect: { type: String },
     status: { type: String },
     category: { type: String },
     type: { type: String },

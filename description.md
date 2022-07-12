@@ -8,7 +8,7 @@
 - _**`top`**_ : nửa trên (áo)
 - _**`footwear`**_ : lên chân (giày,tất)
 
-**2. Bộ sưu tập (_*`Collection`*_)**
+**2. Bộ sưu tập (_*`collect`*_)**
 
     Tập hợp các bộ sưu tập của các loại sản phẩm.
 
@@ -46,18 +46,18 @@
 
 > Schema
 
-| #          | Data type |
-| ---------- | --------- |
-| \_id       | ObjectId  |
-| type       | String    |
-| collection | Array     |
-| category   | Array     |
-| material   | Array     |
-| color      | Array     |
-| warranty   | String    |
-| exchange   | String    |
+| #        | Data type |
+| -------- | --------- |
+| \_id     | ObjectId  |
+| type     | String    |
+| collect  | Array     |
+| category | Array     |
+| material | Array     |
+| color    | Array     |
+| warranty | String    |
+| exchange | String    |
 
-# product_design _`(chỉ dành cho giày)`_
+# product*design *`(chỉ dành cho giày)`\_
 
 **1. Thiết kế sản phẩm / kiểu dáng sản phẩm (chỉ dành cho giày)**
 
@@ -76,7 +76,7 @@
 | \_id    | ObjectId  |
 | content | String    |
 
-# product_status _`(dành cho mọi loại sản phẩm)`_
+# product*status *`(dành cho mọi loại sản phẩm)`\_
 
 **1. Trạng thái sản phẩm**
 
@@ -134,7 +134,7 @@
 
     Sản phẩm theo thiết kế nào (Chỉ giày).
 
-**10. Bộ sưu tập (_*`Collection`*_)**
+**10. Bộ sưu tập (_*`collect`*_)**
 
     Sản phẩm thuộc bộ sưu tập.
 
@@ -177,7 +177,7 @@
 | color       | String    | **_`not null`_** |
 | gender      | String    | **_`all`_**      |
 | design      | String    | **_`null`_**     |
-| collection  | String    | **_`null`_**     |
+| collect     | String    | **_`null`_**     |
 | status      | String    | **_`null`_**     |
 | category    | String    | **_`not null`_** |
 | type        | String    | **_`not null`_** |

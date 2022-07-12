@@ -5,7 +5,7 @@ const Schema = mongoose.Schema;
 const schema = new Schema(
   {
     type: { type: String, maxLength: 10 },
-    collection: { type: Array },
+    collect: { type: Array },
     category: { type: Array },
     material: { type: Array },
     color: { type: Array },
