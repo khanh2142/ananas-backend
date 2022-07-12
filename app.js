@@ -8,6 +8,10 @@ dotenv.config();
 
 db(); // Khởi tạo database
 
+app.use(express.json());
+
+app.use(express.urlencoded({ extended: true }));
+
 app.use(require("./routes")); // Khởi tạo routing
 
 const PORT = 8000 || process.env.PORT;
