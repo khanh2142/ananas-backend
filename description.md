@@ -159,8 +159,9 @@
 
     Danh sách size và số lượng mặt hàng.
 
-- _**`Size`**_
-- _**`Quantity`**_
+**16. Ảnh sản phẩm (_*`Image`*_)**
+
+    Danh sách ảnh của sản phẩm.
 
 > Schema
 
@@ -182,5 +183,6 @@
 | type        | String    | **_`not null`_** |
 | hide        | Boolean   | **_`false`_**    |
 | list        | Array     | **_`not null`_** |
+| image       | Array     | **_`not null`_** |
 
 <p style="padding : 1000px">1<p>
