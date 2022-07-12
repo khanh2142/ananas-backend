@@ -76,7 +76,7 @@
 | \_id    | ObjectId  |
 | content | String    |
 
-# product*status *`(dành cho mọi loại sản phẩm)`\_
+# product_status *`(dành cho mọi loại sản phẩm)`*
 
 **1. Trạng thái sản phẩm**
 
