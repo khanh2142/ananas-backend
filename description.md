@@ -57,7 +57,7 @@
 | warranty   | String    |
 | exchange   | String    |
 
-# product*design *`(chỉ dành cho giày)`\_
+# product_design *`(chỉ dành cho giày)`*
 
 **1. Thiết kế sản phẩm / kiểu dáng sản phẩm (chỉ dành cho giày)**
 
