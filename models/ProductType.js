@@ -4,7 +4,13 @@ const Schema = mongoose.Schema;
 
 const schema = new Schema(
   {
-    content: { type: String, lowercase: true, maxLength: 30 },
+    type: { type: String, maxLength: 10 },
+    collection: { type: Array },
+    category: { type: Array },
+    material: { type: Array },
+    color: { type: Array },
+    warranty: { type: String },
+    exchange: { type: String },
   },
   { collection: "product_type" }
 );
